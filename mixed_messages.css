@@ -3,8 +3,78 @@ html {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/header
-
-header {
+/* Header Styling */
     
+header {
+    margin-left: 50px;
+}
+
+h1 {
+    color: yellow;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.intro {
+    display: block;
+    width: 90%;
+    background-color: black;
+    color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    color: yellow;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    transition: background-color box-shadow 1s;
+}
+
+#button:hover {
+    background-color: black;
+    box-shadow: 0px 0 px;
+    cursor: pointer;
+}
+
+#button:active {
+    background-color: red;
+    color: black;
+    text-shadow: 0 0;
+}
+
+#button p {
+    margin: 0, auto;
+}
+
+.title {
+    width: 150px;
+    height: 26px;
+    background-color:#F2AD85;
+    border-radius: 5px;
+    margin-left: auto;   
+    margin-right: auto;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;   
+    margin-right: auto; 
 }
